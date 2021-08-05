@@ -1,6 +1,7 @@
 package com.practice;
 
 import java.util.ArrayList;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Test {
     public static boolean isPalindromeString(String s){
@@ -49,6 +50,7 @@ public class Test {
         char i='2';char j='3';
         int z= i-'0'+j-'0';
         System.out.println(z);
+        ConcurrentHashMap map = new ConcurrentHashMap(16,7,10);
 
     }
 }

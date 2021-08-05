@@ -1,5 +1,7 @@
 package com.practice.Tree;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Stack;
 
 public class IterativeDFS_Tree {
@@ -47,12 +49,31 @@ public class IterativeDFS_Tree {
             System.out.print(s2.pop().data+",");
         }
     }
+
+    public static void traversal_trick(Node root){
+        Map<Node,Integer> cnt = new HashMap<Node,Integer>();
+        //inorder
+        Stack<Node> s = new Stack<Node>();
+        s.push(root);
+        while(!s.empty()){
+            Node cur = s.peek();
+            if(cur != null) {
+            cnt.put(cur,0);
+            if (cnt.get(cur) == 0) s.push(cur.left);
+            else if (cnt.get(cur) == 1) System.out.println(root.data);
+            else if (cnt.get(cur) == 2) s.push(cur.right);
+            else s.pop();
+            Integer val = cnt.get(cur);
+            cnt.put(cur,val++);
+        }}
+    }
     public static void main(String[] args) {
         Node node = BSTSearch.createBST();
         inOrder(node);
         System.out.println();
-        preOrder(node);
+       // preOrder(node);
         System.out.println();
-        postOrder(node);
+       // postOrder(node);
+        traversal_trick(node);
     }
 }
