@@ -1,4 +1,4 @@
-package com.practice.Tree;// non-recursive java program for inorder traversal
+package com.practice.tree;// non-recursive java program for inorder traversal
 import java.util.Stack;
 
 /* Class containing left and right child of 
@@ -25,7 +25,7 @@ class BinaryTree
             return;
 
 
-        Stack<TreeNode> s = new Stack<TreeNode>();
+        Stack<TreeNode> s = new Stack<>();
         TreeNode curr = root;
 
         // traverse the tree 

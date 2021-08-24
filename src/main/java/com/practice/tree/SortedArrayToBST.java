@@ -1,4 +1,4 @@
-package com.practice.Tree;
+package com.practice.tree;
 
 public class SortedArrayToBST {
     public static Node constructBSTFromSortedArray(int[] arr,int left, int right){

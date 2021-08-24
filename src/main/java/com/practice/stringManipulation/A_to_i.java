@@ -1,4 +1,4 @@
-package com.practice.StringManipulation;
+package com.practice.stringManipulation;
 
 public class A_to_i {
     public static int myAtoi(String s) {

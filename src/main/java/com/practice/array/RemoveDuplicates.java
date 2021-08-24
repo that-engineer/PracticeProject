@@ -1,9 +1,4 @@
-package com.practice.Array;
-
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
-import java.util.Map;
+package com.practice.array;
 
 public class RemoveDuplicates {
     public static int removeDuplicates(int[] arr){

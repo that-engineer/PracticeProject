@@ -1,4 +1,4 @@
-package com.practice.Tree;
+package com.practice.tree;
 
 public class Node {
     Node root, left, right;

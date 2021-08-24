@@ -1,4 +1,4 @@
-package com.practice.Maths;
+package com.practice.maths;
 
 public class SieveOfEratosthenes {
     public static int getPrimeCount(int n){

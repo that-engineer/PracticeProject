@@ -1,11 +1,7 @@
-package com.practice.Tree;
+package com.practice.tree;
 
-import java.sql.Array;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
 import java.util.Stack;
 
 public class ValidateBinarySearchTree {

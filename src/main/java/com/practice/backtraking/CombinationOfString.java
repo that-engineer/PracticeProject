@@ -1,4 +1,4 @@
-package com.practice.Backtraking;
+package com.practice.backtraking;
 
 import java.util.Scanner;
 

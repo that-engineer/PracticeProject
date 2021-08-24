@@ -1,4 +1,4 @@
-package com.practice.Lists;
+package com.practice.lists;
 
 public class LinkedListDemo {
     public static void main(String[] args) {

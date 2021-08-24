@@ -1,4 +1,4 @@
-package com.practice.Tree;
+package com.practice.tree;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Stack;
 
 public class IterativeDFS_Tree {
     public static void inOrder(Node root){
-        Stack<Node> s = new Stack<Node>();
+        Stack<Node> s = new Stack<>();
         while(root!=null || !s.isEmpty()){
             if(root!=null){
                 s.push(root);
@@ -20,7 +20,7 @@ public class IterativeDFS_Tree {
     }
 
     public static void preOrder(Node root) {
-        Stack<Node> s = new Stack<Node>();
+        Stack<Node> s = new Stack<>();
         s.push(root);
         while (!s.isEmpty()) {
             root = s.pop();
@@ -32,8 +32,8 @@ public class IterativeDFS_Tree {
         }
     }
     public static void postOrder(Node root){
-        Stack<Node> s1 = new Stack<Node>();
-        Stack<Node> s2 = new Stack<Node>();
+        Stack<Node> s1 = new Stack<>();
+        Stack<Node> s2 = new Stack<>();
         s1.push(root);
         while(!s1.isEmpty()){
             root = s1.pop();

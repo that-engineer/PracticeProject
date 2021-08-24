@@ -1,11 +1,11 @@
-package com.practice.Tree;
+package com.practice.tree;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class ITerativeBFS_Tree {
     public static void Iterative_BFS(Node root){
-        Queue<Node> q = new LinkedList<Node>();
+        Queue<Node> q = new LinkedList<>();
         q.add(root);
         while (!q.isEmpty()){
             root = q.poll();
