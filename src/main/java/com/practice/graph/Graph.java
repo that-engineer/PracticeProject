@@ -1,4 +1,4 @@
-package com.practice;
+package com.practice.graph;
 
 import java.util.ArrayList;
 import java.util.List;
